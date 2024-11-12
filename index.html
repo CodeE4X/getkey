@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Key</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #e0eafc, #cfdef3);
+        }
+        .container {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        .stext {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .stext::after {
+            content: "";
+            width: 60px;
+            height: 3px;
+            background: #5865F2;
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .text {
+            font-size: 18px;
+            color: #666;
+            margin: 20px 0;
+        }
+        button {
+            background-color: #5865F2;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px 0;
+            border-radius: 50px;
+            width: 100%;
+            transition: background-color 0.3s, transform 0.2s;
+            box-shadow: 0 4px 8px rgba(88, 101, 242, 0.4);
+        }
+        button:hover {
+            background-color: #4752C4;
+            transform: translateY(-2px);
+        }
+        button:active {
+            transform: translateY(1px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="stext">Select Task</div>
+
+        <!-- Tombol Join Discord -->
+        <button onclick="window.location.href='https://discord.gg/EwARkGncq4'">With Join Discord (check announcement Pins)</button>
+
+        <!-- Teks Or -->
+        <div class="text">Or</div>
+
+        <!-- Tombol Task -->
+        <button onclick="window.location.href='https://lootdest.org/s?300781a4'">With Adlinks</button>
+    </div>
+</body>
+</html>
